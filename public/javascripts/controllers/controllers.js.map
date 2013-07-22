@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "controllers.coffee.src"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAO,EAAA,GAAP,CAAO,EAAC;CAEN,KAAA,CAAA;CAAA,CAAA,CAAU,EAAA,EAAV;CACQ,CAAsB,IAA9B,CAAO,EAAP,IAAA;CAHK"
+}

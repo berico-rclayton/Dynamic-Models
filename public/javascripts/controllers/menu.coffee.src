@@ -1,0 +1,7 @@
+define ["controllers/controllers", "services/menu"], (controllers) ->
+
+  controllers.controller "MenuController", ["$scope", "menuService", ($scope, menuService)->
+
+    $scope.menuItems = menuService.items
+
+  ]

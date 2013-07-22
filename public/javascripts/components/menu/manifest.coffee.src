@@ -1,0 +1,6 @@
+define -> [
+  "components/menu/home",
+  "components/menu/geoparser",
+  "components/menu/api",
+  "components/menu/about"
+]

@@ -1,0 +1,23 @@
+<div>
+    <table class="table table-striped" style="width: 220px"
+           ng-show="collection.length > 0">
+        <tr ng-repeat="item in collection">
+            <td>
+                <i class="icon-pencil" ng-click="edit(item)"></i>
+                <i class="icon-remove" ng-click="remove(item)"></i>
+            </td>
+            <td>
+                <span class="text-info"
+                      style="margin-left: 16px; font-size: 12px">{{item}}</span>
+            </td>
+        </tr>
+    </table>
+    <input type="text" class="input-xlarge" ng-model="stringItem" />
+    <button type="button" class="btn btn-primary" ng-click="add()">
+        <i class="icon-plus icon-white"></i>
+    </button>
+    <button type="button" class="btn" ng-click="clear()">
+        <i class="icon-remove icon-white"></i>
+    </button>
+    <p ng-show="errorMessage" class="help-block"><span class="text-error">{{errorMessage}}</span></p>
+</div>

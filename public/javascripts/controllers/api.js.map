@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "api.coffee.src"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAO,CAA6B,CAAA,GAApC,GAAqC,EAAD,cAA7B;CAEO,CAA4B,OAAxC,CAAA,CAAW,IAAX;EAAmD,CAAA,EAAV,CAAU,EAAX,CAAY;CAE1C,EAAR,IAAO,MAAP,cAAA;CAFsC,IAAW;CAFjB,GAElC;CAFkC"
+}

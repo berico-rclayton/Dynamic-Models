@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "locationsmap.coffee.src"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAO,CAA6B,CAAA,GAApC,GAAqC,EAAD,cAA7B;CAEO,CAAqC,OAAjD,CAAA,CAAW,aAAX;EAA4D,CAAA,EAAV,CAAU,EAAX,CAAY;CAEnD,EAAR,IAAO,MAAP,uBAAA;CAF+C,IAAW;CAF1B,GAElC;CAFkC"
+}

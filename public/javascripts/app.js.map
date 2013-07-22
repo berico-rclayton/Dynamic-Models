@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "app.coffee.src"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAO,CAAS,CAAA,EAAT,CAAP,CAAgB,EAAC;CAAoB,CAAc,GAAtB,CAAA,CAAO,EAAP,CAAsB,EAAA,CAAA;CAAnC"
+}

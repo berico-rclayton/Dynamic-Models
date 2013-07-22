@@ -1,0 +1,31 @@
+{
+	"type": "Collection",
+	"properties": {
+		"source": {
+			"name": "source",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+            "refTo": "people",
+			"id": "source",
+			"order": 0
+		},
+		"target": {
+			"name": "target",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+            "refTo": "people",
+			"id": "target",
+			"order": 1
+		},
+		"description": {
+			"name": "description",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "description",
+			"order": 2
+		}
+	}
+}

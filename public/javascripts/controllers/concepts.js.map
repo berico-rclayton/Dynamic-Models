@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "concepts.coffee.src"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAO,CAA6B,CAAA,GAApC,GAAqC,EAAD,cAA7B;CAEO,CAAiC,OAA7C,CAAA,CAAW,SAAX;EAAwD,CAA+B,EAAzC,CAAyC,EAA1C,CAA2C,EAA3C,GAA0C,EAA1C;CAE3C,EAAA,GAAA,CAAO,yBAAP;CAEO,EAAY,GAAb,GAAN,IAAA,CAAiC;CAJU,IAA0C;CAFrD,GAElC;CAFkC"
+}

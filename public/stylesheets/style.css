@@ -1,0 +1,39 @@
+i[class*="icon"] {
+  position: relative;
+  bottom: -2px;
+}
+.actionBtnWidth {
+  width: 108px;
+}
+/* Transitions */
+.fade-hide-setup,
+.fade-show-setup {
+  -webkit-transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.75s;
+  -moz-transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.75s;
+  -o-transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.75s;
+  -webkit-transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.75s;
+  -moz-transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.75s;
+  -o-transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.75s;
+  -ms-transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.75s;
+  transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 0.75s;
+}
+.fade-hide-setup {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+.fade-hide-setup.fade-hide-start {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+.fade-show-setup {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+}
+.fade-show-setup.fade-show-start {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}

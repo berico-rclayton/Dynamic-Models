@@ -1,0 +1,15 @@
+require [
+    "app",
+    "components/menu/manifest",
+    "services/menu"
+  ],
+  (app, manifest) ->
+
+    app.run ["menuService", (menuService) ->
+
+      require manifest, ->
+        for menuItem in arguments
+          menuService.addItem menuItem
+
+        menuService.refresh()
+    ]

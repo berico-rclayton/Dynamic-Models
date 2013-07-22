@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "geoparser.coffee.src"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAO,EAAA,GAAP,GAAO;SACL;CAAA,CACQ,EAAN,OADF;CAAA,CAEQ,EAAN,SAFF;CAAA,CAGU,EAAR,CAHF,CAGE;CAJG;CAAA"
+}

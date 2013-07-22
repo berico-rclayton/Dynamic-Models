@@ -1,0 +1,5 @@
+define ->
+  {
+    name: "About"
+    href: "#/about"
+  }

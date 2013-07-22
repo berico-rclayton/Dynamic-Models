@@ -1,0 +1,9 @@
+define ["controllers/controllers"], (controllers, templates) ->
+
+  controllers.controller "LocationsMapController", ["$scope", ($scope)->
+
+    console.log "Starting up LocationsMapController"
+
+
+
+  ]

@@ -1,0 +1,68 @@
+define ["controllers/controllers"], (controllers) ->
+
+  SelectedLocationController = ($scope, $rootScope, geoCode, geoparserChannel)->
+
+    console.log "Starting up SelectedLocationController"
+
+    $scope.matchLimit = 10
+    $scope.alternateLimit = 10
+    $scope.selectedLocation = null
+
+    geoparserChannel.onResolvedLocationSelected (location) ->
+      $scope.selectedLocation = location
+
+    $scope.locationType = (code) ->
+      geoCode.lookup(code)
+
+    isValidAdminCode = (adminCode) ->
+      if _.isEmpty adminCode
+        return false
+      if _.isNaN _.parseInt(adminCode)
+        return true
+
+    isCountry = (loc) ->
+      loc.geoname.primaryCountryCode is "NULL" or loc.geoname.admin1Code is "00"
+
+    $scope.title =  (loc) ->
+      if loc?
+        title = "#{loc.geoname.name}"
+
+        if loc.geoname.featureClass is "P" or loc.geoname.featureClass is "A"
+
+          if isValidAdminCode loc.geoname.admin2Code
+            title += ", #{loc.geoname.admin2Code}"
+
+          if isValidAdminCode loc.geoname.admin1Code
+            title += ", #{loc.geoname.admin1Code}"
+
+          unless isCountry loc
+            title += ", #{loc.geoname.primaryCountryCode}"
+
+        title
+
+    latString = (latitude) ->
+      if latitude >= 0
+        latitude + "N"
+      else
+        (latitude * -1.0) + "S"
+
+    lonString = (longitude) ->
+      if longitude >= 0
+        longitude + "E"
+      else
+        (longitude * -1.0) + "W"
+
+    $scope.locationInfo = (loc) ->
+      if loc?
+        lat = latString(loc.geoname.latitude)
+        lon = lonString(loc.geoname.longitude)
+        info = "#{lat} #{lon}"
+        unless loc.geoname.elevation is -9999999
+          elv = loc.geoname.elevation
+          elvFt = Math.round(loc.geoname.elevation * 3.3)
+          info += ", elev. #{elv}m (#{elvFt}ft)"
+        info
+
+  controllers.controller "SelectedLocationController", [
+    "$scope", "$rootScope", "geoCodeService", "geoparserChannel",  SelectedLocationController
+  ]

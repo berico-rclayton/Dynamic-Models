@@ -1,0 +1,53 @@
+<h2>Concept Definitions</h2>
+<hr />
+<div class="row">
+    <div class="span3">
+        <div ng-include="'nav_concepts'" />
+    </div>
+    <div class="span9">
+        <h3><span class="text-success">{{conceptTitle}}</span> Definition</h3>
+        <div>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Property</th>
+                        <th>Key</th>
+                        <th>Description</th>
+                        <th>Type</th>
+                        <th>Is Concept?</th>
+                        <th>Required</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="property in schema.properties">
+                        <td>{{property.humanized}}</td>
+                        <td>{{property.name}}</td>
+                        <td>{{property.description}}</td>
+                        <td>{{property.type}}</td>
+                        <td>
+                            <a ng-show="property.refTo"
+                               href="#/concepts/{{property.refTo}}">
+                                {{property.refTo}}
+                            </a>
+                        </td>
+                        <td>{{property.required}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <div class="pull-right">
+                <button type="button" class="btn btn-primary"
+                        ng-click="goto('/concepts/' + conceptName + '/list')">
+                    <i class="icon-list icon-white"></i>
+                    <span style="margin-left: 6px">List {{conceptTitle}}</span>
+                </button>
+                <button type="button" class="btn btn-success"
+                        ng-click="goto('/concepts/' + conceptName + '/new')">
+                    <i class="icon-plus icon-white"></i>
+                    <span style="margin-left: 6px">New {{conceptSingular}}</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

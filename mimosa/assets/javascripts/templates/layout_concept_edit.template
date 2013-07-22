@@ -1,0 +1,14 @@
+<h2>Concept Definitions</h2>
+<hr />
+<div class="row">
+    <div class="span3">
+        <div ng-include="'nav_concepts'" />
+    </div>
+    <div class="span9">
+        <div class="well well-small">
+            <h4>{{titleAction}} <span class="text-success">{{conceptSingular}}</span></h4>
+            <hr />
+            <formbuilder />
+        </div>
+    </div>
+</div>

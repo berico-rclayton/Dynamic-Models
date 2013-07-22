@@ -1,0 +1,255 @@
+define [
+  "controllers/controllers",
+  "jquery",
+  "lodash",
+  "ang",
+  "async",
+  "templates",
+  "vendor/ngGridLayoutPlugin",
+  "chardin",
+  "scrollto"], (controllers, $, _, angular, async, templates, ngGridLayoutPlugin, chardin) ->
+
+    GeoParserController = ($scope, geoParser, geoparserChannel)->
+
+      console.log "Starting up GeoParserController"
+
+      # This is a fix to an issue with Firefox url-encoding quotes
+      # in element attributes.
+      $scope.view_resolved_location = "resolved_location"
+      $scope.view_selected_location = "selected_location"
+
+      $scope.resolvedLocations = []
+      $scope.selectedLocations = []
+      $scope.unresolvedLocations = []
+
+      # Clearing results can be a little obtuse.  You can't simply
+      # reset the array since some components are bound by reference
+      # to that object.  So you need to clear the array (which in
+      # JavaScript is a little ghetto; length=0).
+      $scope.clearResults = ->
+        $scope.unresolvedLocations.length = 0
+        $scope.resolvedLocations.length = 0
+        $scope.selectedLocations.length = 0
+
+      # Grid Settings
+
+      resLayoutPlugin = new ngGridLayoutPlugin()
+      unresLayoutPlugin = new ngGridLayoutPlugin()
+
+      # This is a guard to ensure the same location is selected more
+      # than once (firing a shit ton of events).
+      lastResLocGridSelection = null
+      lockedForLoading = false
+      $scope.showResults = true
+
+      refreshLayouts = ->
+        # This is a hack to wait until the Scope is done $digest/$apply'ing
+        # and then calles the grids to update their layout (which invokes
+        # $apply).
+        async.until (-> not $scope.$$phase), ((cb) -> setTimeout(cb, 200)), ->
+          resLayoutPlugin.updateGridLayout()
+          unresLayoutPlugin.updateGridLayout()
+
+      $scope.gridOptions = {
+        data: "resolvedLocations"
+        showGroupPanel: true
+        columnDefs: [
+          { field: "geoname.name", displayName: "Normalized Name", minWidth: 50 }
+          { field: "matches.length", displayName: "Occurrences", minWidth: 50 }
+          { field: "matchedNamesStr", displayName: "Matches", minWidth: 50 }
+          { field: "charPositionsStr", displayName: "Positions", minWidth: 50 }
+          { field: "geoname.primaryCountryName", displayName: "Country", minWidth: 50 }
+          {
+            field: "geoname.featureCode"
+            displayName: "Location Type"
+            # Problem loading the right template, but this worked.
+            cellTemplate: templates.location_type_cell
+            minWidth: 50
+          }
+          { field: "geoname.latitude", displayName: "Latitude", minWidth: 50 }
+          { field: "geoname.longitude", displayName: "Longitude", minWidth: 50 }
+          { field: "geoname.timezone", displayName: "Timezone", minWidth: 50 }
+          { field: "confidence", displayName: "Confidence", minWidth: 50 }
+        ]
+        rowTemplate: "resolved_location_row"
+        multiSelect: false
+        selectedItems: $scope.selectedLocations
+        plugins: [resLayoutPlugin]
+        afterSelectionChange: (rowItem, event) ->
+          console.log "Selection Changed"
+          unless rowItem.entity is lastResLocGridSelection or lockedForLoading
+            lastResLocGridSelection = rowItem.entity
+            geoparserChannel.selectResolvedLocation lastResLocGridSelection
+      }
+
+      $scope.unresolvedGridOptions = {
+        columnDefs: [
+          { field: "text", displayName: "Unresolved Location" }
+          { field: "position", displayName: "Character Position" }
+        ]
+        data: "unresolvedLocations"
+        plugins: [unresLayoutPlugin]
+      }
+
+      # Mininav Settings
+
+      btnScrollToTop =
+        label: "Map/Details"
+        icon: "icon-globe"
+        isVisible: -> $scope.isVisible()
+        clicked: -> $scope.scrollTo('.navbar')
+
+      btnScrollToResolvedLocations =
+        label: "Resolved"
+        icon: "icon-map-marker"
+        isVisible: -> $scope.isVisible()
+        clicked: -> $scope.scrollTo('#resolvedLocations')
+
+      btnScrollToUnresolvedLocations =
+        label: "Unresolved"
+        icon: "icon-question-sign"
+        isVisible: -> $scope.isVisible()
+        clicked: -> $scope.scrollTo('#unresolvedLocations')
+
+      btnScrollToGeoparserInput =
+        label: "Input"
+        icon: "icon-edit"
+        isVisible: -> true
+        clicked: -> $scope.scrollTo('#geoparser')
+
+      btnShowHide =
+        label: "Show/Hide"
+        icon: "icon-fullscreen"
+        isVisible: -> $scope.resolvedLocations.length > 0
+        clicked: -> $scope.toggleShowResults()
+
+      btnClearResults =
+        label: "Clear"
+        icon: "icon-fire"
+        isVisible: -> $scope.resolvedLocations.length > 0
+        clicked: -> $scope.clearResults()
+
+      $scope.geoparserInputNavConfig =
+        menuitems: [
+          btnScrollToTop
+          btnShowHide
+          btnClearResults
+        ]
+
+      $scope.resolvedNavConfig =
+        menuitems: [
+          btnScrollToTop
+          btnScrollToGeoparserInput
+          btnShowHide
+          btnClearResults
+        ]
+
+      $scope.unresolvedNavConfig =
+        menuitems: [
+          btnScrollToTop
+          btnScrollToGeoparserInput
+          btnShowHide
+          btnClearResults
+        ]
+
+      $scope.topNavConfig =
+        additionalClasses: "submenu-top-border"
+        menuitems: [
+          btnScrollToResolvedLocations
+          btnScrollToUnresolvedLocations
+          btnScrollToGeoparserInput
+          btnShowHide
+          btnClearResults
+        ]
+
+      # TEMPLATE HELPERS
+
+      $scope.sampleText = ->
+        templates.vissample
+
+      # Get the currently selected location or null
+      $scope.selectedLocation = ->
+        if $scope.hasSelectedLocation()
+          $scope.selectedLocations[0]
+        else
+          null
+
+      $scope.showHelp = ->
+        $("body").chardinJs("start")
+
+      $scope.toggleShowResults = ->
+        $scope.showResults = not $scope.showResults
+
+      # Is there a selected Location?
+      $scope.hasSelectedLocation = ->
+        $scope.selectedLocations.length > 0
+
+      $scope.isVisible = ->
+        $scope.showResults and $scope.resolvedLocations.length > 0 or lockedForLoading
+
+      # ACTIONS
+
+      $scope.clearInput = ->
+        $scope.inputText = ""
+
+      $scope.sample = ->
+        $scope.inputText = templates.sample
+
+      $scope.scrollTo = (element)->
+        $.scrollTo(element, 1000)
+
+      $scope.resolve = ->
+        if $scope.inputText? and $scope.inputText.trim() isnt ""
+
+          geoParser.extractAndResolve $scope.inputText, (data, locs, unres) ->
+
+            lockedForLoading = true
+
+            $scope.clearResults()
+
+            $scope.documents = data
+
+            for loc in locs
+              $scope.resolvedLocations.push loc
+
+            for unr in unres
+              $scope.unresolvedLocations.push unr
+
+            $scope.showResults = true
+
+            refreshLayouts()
+
+            geoparserChannel.receiveGeoparsedDocument { doc: data, res: locs, unres: unres }
+
+            geoparserChannel.selectResolvedLocation locs[0]
+
+            if $scope.isVisible()
+              setTimeout((-> $.scrollTo ".navbar", 1000), 500)
+
+
+
+      # EVENT LISTENERS
+
+      # This is fired by the Grids to indicate data has loaded.
+      $scope.$on "ngGridEventData", ->
+        if $scope.gridOptions?.selectRow?
+          lockedForLoading = false
+          $scope.gridOptions.selectRow 0, true
+          refreshLayouts()
+
+
+      # Whenever a location is selected (from wherever), select
+      # it on the grid as well.
+      geoparserChannel.onResolvedLocationSelected (location) =>
+        idx = _.findIndex $scope.resolvedLocations, (loc) =>
+          loc.geoname.geonameID is location.geoname.geonameID
+
+        unless idx is -1
+          $scope.gridOptions.selectItem idx, true
+
+
+
+    # Register the controller
+    controllers.controller "GeoParserController", [
+      "$scope", "geoParserService", "geoparserChannel", GeoParserController
+    ]

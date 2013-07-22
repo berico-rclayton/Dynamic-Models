@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7576efa-f5b6-4074-87ba-d40f24659c19" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/stylesheets/fonts/newscycle-bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/stylesheets/fonts/newscycle-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/stylesheets/font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/templates/layout_home.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/directives/mininav.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/templates/mininav.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/vendor/ngGridLayoutPlugin.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/templates/selected_location.template" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/javascripts/controllers/selectedlocation.coffee" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/app.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/app.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/bootstrap.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/bootstrap.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/loader.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/loader.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/about.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/about.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/api.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/api.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/extractor.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/extractor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/extractor.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/geoparser.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/geoparser.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/home.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/home.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/manifest.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/manifest.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/resolver.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/resolver.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/about.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/about.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/api.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/api.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/controllers.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/controllers.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/extractor.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/extractor.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/extractor.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/main.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/main.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/mapview.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/mapview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/mapview.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/menu.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/menu.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/resolver.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/resolver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/resolver.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/test.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/test.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/directives/d3map.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/directives/d3map.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/directives/directives.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/directives/directives.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geocode.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geocode.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/menu.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/menu.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/pubsub-channels.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/pubsub-channels.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/services.coffee.src" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/services.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/components/menu/extractor.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/components/menu/resolver.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/controllers/extractor.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/controllers/resolver.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/templates/layout_extractor.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/templates/layout_resolver.template" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/javascripts/templates/test.template" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/javascripts/controllers/mapview.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/controllers/locationsmap.coffee" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/javascripts/controllers/test.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/controllers/home.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/img/clavin_logo.png" afterPath="$PROJECT_DIR$/../src/main/resources/assets/img/clavin_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/clavin_logo.png" afterPath="$PROJECT_DIR$/assets/img/clavin_logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/img/clavin_logo_small_black.png" afterPath="$PROJECT_DIR$/../src/main/resources/assets/img/clavin_logo_small_black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/clavin_logo_small_black.png" afterPath="$PROJECT_DIR$/assets/img/clavin_logo_small_black.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.classpath" afterPath="$PROJECT_DIR$/../.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/about.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/about.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/about.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/api.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/api.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/app.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../conf/applicationContext.xml" afterPath="$PROJECT_DIR$/../conf/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/bootstrap.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/controllers.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/directives/d3map.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/directives/d3map.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/directives/d3map.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/directives/d3map.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/directives/directives.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/directives/directives.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/templates/footer.template" afterPath="$PROJECT_DIR$/assets/javascripts/templates/footer.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geocode.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geocode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/geoparser.coffee.src" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/geoparser.coffee.src" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geoparser.coffee.src" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geoparser.coffee.src" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/controllers/geoparser.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/controllers/geoparser.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/services/geoparser.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/services/geoparser.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/geoparser.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/geoparser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/geoparser.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/geoparser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geoparser.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geoparser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/geoparser.map" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/geoparser.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geoparser.map" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/geoparser.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/home.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/home.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/index.html" afterPath="$PROJECT_DIR$/../src/main/resources/assets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/index.html" afterPath="$PROJECT_DIR$/assets/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/stylesheets/journal-bootstrap.css" afterPath="$PROJECT_DIR$/../src/main/resources/assets/stylesheets/journal-bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/journal-bootstrap.css" afterPath="$PROJECT_DIR$/assets/stylesheets/journal-bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/templates/layout_geoparser.template" afterPath="$PROJECT_DIR$/assets/javascripts/templates/layout_geoparser.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/components/loader.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/components/loader.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/loader.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/loader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/main.coffee.src" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/main.coffee.src" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/main.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/main.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/main.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/main.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/main.map" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/main.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/components/menu/manifest.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/components/menu/manifest.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/manifest.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/components/menu/manifest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/controllers/menu.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/controllers/menu.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/services/menu.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/services/menu.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/menu.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/controllers/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/menu.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/menu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/templates/menu.template" afterPath="$PROJECT_DIR$/assets/javascripts/templates/menu.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pom.xml" afterPath="$PROJECT_DIR$/../pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/services/pubsub-channels.coffee" afterPath="$PROJECT_DIR$/assets/javascripts/services/pubsub-channels.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/pubsub-channels.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/pubsub-channels.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/javascripts/templates/sample.template" afterPath="$PROJECT_DIR$/assets/javascripts/templates/sample.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/services.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/services/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/stylesheets/style.css" afterPath="$PROJECT_DIR$/../src/main/resources/assets/stylesheets/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/stylesheets/style.styl" afterPath="$PROJECT_DIR$/assets/stylesheets/style.styl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/templates.js" afterPath="$PROJECT_DIR$/../src/main/resources/assets/javascripts/templates.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="web-ui.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Dummy.txt" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368109120917" ignored="false" />
+    <file path="/index.html" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368276957135" ignored="false" />
+    <file path="/TestController.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367793733504" ignored="false" />
+    <file path="/controllers.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367793604101" ignored="false" />
+    <file path="/main.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368276008690" ignored="false" />
+    <file path="/test.html" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367800750244" ignored="false" />
+    <file path="/mimosa-config.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367896264423" ignored="false" />
+    <file path="/bootstrap.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367802077776" ignored="false" />
+    <file path="/app.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367948681672" ignored="false" />
+    <file path="/test.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367849573027" ignored="false" />
+    <file path="/sb1.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367804431483" ignored="false" />
+    <file path="/sb1controller.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367804486078" ignored="false" />
+    <file path="/sb2.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367804510979" ignored="false" />
+    <file path="/testcontroller.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367804670822" ignored="false" />
+    <file path="/header.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367855587515" ignored="false" />
+    <file path="/style.styl" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368278386286" ignored="false" />
+    <file path="/footer.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368239265271" ignored="false" />
+    <file path="/menucontroller.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367853598895" ignored="false" />
+    <file path="/services.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367853009231" ignored="false" />
+    <file path="/menu.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368150390919" ignored="false" />
+    <file path="/sb1.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367886792928" ignored="false" />
+    <file path="/menu.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368147226609" ignored="false" />
+    <file path="/journal-bootstrap.css" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368132198283" ignored="false" />
+    <file path="/home.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367882950970" ignored="false" />
+    <file path="/parser.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367886775261" ignored="false" />
+    <file path="/pubsub.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367872641375" ignored="false" />
+    <file path="/menu-items.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367873956558" ignored="false" />
+    <file path="/manifest.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367873789395" ignored="false" />
+    <file path="/loader.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368125592537" ignored="false" />
+    <file path="/body.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367881812132" ignored="false" />
+    <file path="/resolver.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367882992287" ignored="false" />
+    <file path="/about.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367883040583" ignored="false" />
+    <file path="/layout_geoparser.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368278865320" ignored="false" />
+    <file path="/layout_about.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367889113118" ignored="false" />
+    <file path="/layout_api.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367889668904" ignored="false" />
+    <file path="/layout_resolver.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367889848988" ignored="false" />
+    <file path="/layout_extractor.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367889853877" ignored="false" />
+    <file path="/geoparser.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368278065110" ignored="false" />
+    <file path="/mapview.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367895137682" ignored="false" />
+    <file path="/mapview.js" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367896457598" ignored="false" />
+    <file path="/viz_mapview.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367895392259" ignored="false" />
+    <file path="/d3map.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368130983319" ignored="false" />
+    <file path="/resolved_location_row.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367950760426" ignored="false" />
+    <file path="/geocode.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367960282067" ignored="false" />
+    <file path="/location_type_cell.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367960329374" ignored="false" />
+    <file path="/resolved_location.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1367961234991" ignored="false" />
+    <file path="/ngGridLayoutPlugin.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368065916209" ignored="false" />
+    <file path="/mininav.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368110633973" ignored="false" />
+    <file path="/mininav.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368110313917" ignored="false" />
+    <file path="/selectedlocation.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368142904359" ignored="false" />
+    <file path="/pubsub-channels.coffee" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368128880156" ignored="false" />
+    <file path="/selected_location.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368143057373" ignored="false" />
+    <file path="/font.css" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368132150842" ignored="false" />
+    <file path="/home.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368150452157" ignored="false" />
+    <file path="/vissample.template" changelist="c7576efa-f5b6-4074-87ba-d40f24659c19" time="1368240371236" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="web-ui" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="layout_geoparser.template" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/templates/layout_geoparser.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="117" selection-start="871" selection-end="871" vertical-scroll-proportion="-12.064516">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.styl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/style.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="73" column="13" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/main.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="84" column="96" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="geoparser.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/controllers/geoparser.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="183" column="88" selection-start="6042" selection-end="6042" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="122" selection-start="341" selection-end="341" vertical-scroll-proportion="0.24205379">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/controllers/home.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="89" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/javascripts/controllers/main.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="38" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/assets/javascripts/controllers/selectedlocation.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/templates/selected_location.template" />
+        <option value="$PROJECT_DIR$/assets/javascripts/templates/menu.template" />
+        <option value="$PROJECT_DIR$/assets/javascripts/templates/home.template" />
+        <option value="$PROJECT_DIR$/assets/javascripts/controllers/home.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/templates/layout_home.template" />
+        <option value="$PROJECT_DIR$/assets/javascripts/services/menu.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/templates/sample.template" />
+        <option value="$PROJECT_DIR$/assets/javascripts/services/geoparser.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/templates/footer.template" />
+        <option value="$PROJECT_DIR$/assets/javascripts/templates/vissample.template" />
+        <option value="$PROJECT_DIR$/assets/javascripts/main.coffee" />
+        <option value="$PROJECT_DIR$/assets/javascripts/controllers/geoparser.coffee" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/style.styl" />
+        <option value="$PROJECT_DIR$/assets/javascripts/templates/layout_geoparser.template" />
+        <option value="$PROJECT_DIR$/assets/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1920" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/stylesheets/fonts" />
+      <recent name="$PROJECT_DIR$/assets/javascripts/vendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/assets/javascripts" />
+      <recent name="$PROJECT_DIR$/assets/javascripts/components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7576efa-f5b6-4074-87ba-d40f24659c19" name="Default" comment="" />
+      <created>1367793151135</created>
+      <updated>1367793151135</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1920" height="995" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24248815" sideWeight="0.99598795" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943678" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/controllers/selectedlocation.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="85" selection-start="251" selection-end="251" vertical-scroll-proportion="0.16867469">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/services/pubsub-channels.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="29" selection-start="295" selection-end="295" vertical-scroll-proportion="0.21686748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/templates/layout_api.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="162" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/templates/layout_home.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="19" selection-start="164" selection-end="164" vertical-scroll-proportion="0.14965986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/services/menu.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="25" selection-start="808" selection-end="808" vertical-scroll-proportion="0.48192772">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/controllers/main.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="38" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/templates/footer.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="74" selection-start="415" selection-end="415" vertical-scroll-proportion="0.27437642">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/services/geoparser.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="83" selection-start="305" selection-end="305" vertical-scroll-proportion="0.024096385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/templates/sample.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="4346" selection-end="4387" vertical-scroll-proportion="-3.548387">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/main.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="96" selection-start="2033" selection-end="2033" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/controllers/home.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="89" selection-start="124" selection-end="124" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/controllers/geoparser.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="88" selection-start="6042" selection-end="6042" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/style.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="13" selection-start="1134" selection-end="1134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/javascripts/templates/layout_geoparser.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="117" selection-start="871" selection-end="871" vertical-scroll-proportion="-12.064516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="122" selection-start="341" selection-end="341" vertical-scroll-proportion="0.24205379">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

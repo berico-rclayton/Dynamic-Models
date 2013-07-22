@@ -1,0 +1,12 @@
+define [], ->
+
+  class ngGridLayoutPlugin
+
+    init: (scope, grid, services) =>
+      @domUtilityService = services.DomUtilityService
+      @grid = grid
+      @scope = scope
+
+    updateGridLayout: =>
+      @scope.$apply =>
+        @domUtilityService.RebuildGrid @scope, @grid

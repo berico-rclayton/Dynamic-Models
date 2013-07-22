@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "manifest.coffee.src"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAO,EAAA,GAAP,GAAO;CACL,CACA,OAFQ,YAAA,CAAA,CAAA,IAAA;CAAH"
+}

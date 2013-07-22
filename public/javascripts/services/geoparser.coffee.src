@@ -1,0 +1,49 @@
+define ["ang", "lodash", "services/services"], (angular, _, services)->
+
+  console.log "Registering GeoParserService"
+
+  services.factory "geoParserService", [ "$http", ($http)  ->
+
+    processResolvedLocations = (data)->
+      groups = _.groupBy data.resolvedLocations, (datum) -> datum.geoname.geonameID
+      collapsedLocations = []
+      for key, group of groups
+        loc = _.cloneDeep group[0]
+        loc.charPositions = []
+        loc.matchedNames = []
+        loc.matches = []
+        for item in group
+          loc.charPositions.push item.location.position
+          loc.matches.push item.location
+          console.log item
+          unless _.contains loc.matchedNames, item.location.text
+            loc.matchedNames.push item.location.text
+        loc.charPositionsStr = loc.charPositions.join(", ")
+        loc.matchedNamesStr = loc.matchedNames.join(", ")
+        collapsedLocations.push loc
+      # Sort by default against the most occurrences DESC.
+      _.sortBy collapsedLocations, (l) -> -l.matches.length
+
+    getUnresolvedLocations = (data)->
+      allPos = _.map data.locationOccurrences, (loc) -> loc.position
+      resPos = _.map data.resolvedLocations, (loc) -> loc.location.position
+      notIn = _.difference allPos, resPos
+      console.log notIn
+      _.filter data.locationOccurrences, (occ) ->
+        _.contains notIn, occ.position
+
+    extractAndResolve: (text, callback) =>
+      config =
+        method: "POST"
+        url: "/service/geoparser/process"
+        headers:
+          "Content-Type": "text/plain"
+        data: text
+
+      $http(config).success (data, status) =>
+        if status >= 200 and status < 300
+          console.log "Success!"
+          locs = processResolvedLocations data
+          unresolved = getUnresolvedLocations data
+          callback(data, locs, unresolved)
+  ]

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "menu.coffee.src"
+  ],
+  "names": [],
+  "mappings": "AAAA,CAAO,CAA4B,CAAkB,GAArD,GAAsD,EAAD,IAA9C,UAAA;CAEO,CAA6B,OAAzC,CAAA,CAAW,KAAX;EAAoD,CAAe,EAAzB,CAAyB,EAA1B,CAA2B,EAAD,EAA1B;CAEhC,EAAY,GAAb,GAAN,EAA8B,EAA9B;CAFuC,IAA0B;CAFhB,GAEnD;CAFmD"
+}

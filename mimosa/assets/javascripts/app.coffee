@@ -1,0 +1,1 @@
+define ["ang"], (angular) -> angular.module "app", ["controllers", "services", "directives"]

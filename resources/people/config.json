@@ -1,0 +1,58 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"description": "the dude's name",
+			"id": "name",
+			"order": 0
+		},
+		"age": {
+			"name": "age",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "age",
+			"order": 1
+		},
+		"isOld": {
+			"name": "isOld",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+            "defaultValue": false,
+			"id": "isOld",
+			"order": 2
+		},
+		"address": {
+			"name": "address",
+			"type": "object",
+			"typeLabel": "object",
+			"required": true,
+			"id": "address",
+			"order": 3
+		},
+		"children": {
+			"name": "children",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "children",
+            "refTo": "people",
+			"order": 4
+		},
+		"hairColor": {
+			"name": "hairColor",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "hairColor",
+            "customType": "selectFromOptions",
+            "options": ["brown", "blond", "black", "dyed some color"],
+			"order": 5
+		}
+	}
+}

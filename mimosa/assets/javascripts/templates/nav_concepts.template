@@ -1,0 +1,19 @@
+<div ng-controller="ConceptsNavController" class="well well-small" style="min-height: 350px">
+    <ul class="nav nav-list">
+        <li ng-class="{ active: currentPath == '/' }">
+            <a href="#/">Introduction</a>
+        </li>
+        <li ng-class="{ active: currentPath == '/concepts' }">
+            <a href="#/concepts">Concept Overview</a>
+        </li>
+        <li class="nav-header">Concepts</li>
+        <li ng-repeat="resource in resources"
+            ng-class="{ active: currentPath == ('/concepts/def/' + resource.id) }">
+            <a ng-href="#/concepts/{{resource.id}}">{{resource.id.titleize()}}</a>
+        </li>
+        <li class="nav-header">Export</li>
+        <li>
+            <a href="">Comma-Separated Values (CSV)</a>
+        </li>
+    </ul>
+</div>

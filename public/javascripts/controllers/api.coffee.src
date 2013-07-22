@@ -1,0 +1,7 @@
+define ["controllers/controllers"], (controllers) ->
+
+  controllers.controller "ApiController", ["$scope", ($scope)->
+
+    console.log "Starting up ApiController"
+
+  ]
